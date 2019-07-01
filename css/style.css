@@ -1,0 +1,38 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.cardioid {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #222;
+}
+
+a {
+  margin: 5px 5px;
+  color: #fff;
+  font-size: 2em;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
+a:hover {
+  color: #222;
+}
+/*# sourceMappingURL=style.css.map */

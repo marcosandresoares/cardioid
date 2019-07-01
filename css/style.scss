@@ -1,0 +1,35 @@
+// Variables
+$color-green: #1abc9c;
+$color-white: #fff;
+$color-dark-gray: #222;
+// Styling
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.cardioid {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    background: $color-dark-gray;
+}
+
+a {
+    margin: 5px 5px;
+    color: $color-white;
+    font-size: 2em;
+    transition: all 400ms ease;
+}
+
+a:hover {
+    color: $color-dark-gray;
+}
